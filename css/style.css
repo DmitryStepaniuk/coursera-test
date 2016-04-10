@@ -1,0 +1,99 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    box-sizing: border-box;
+    width: 21%;
+    margin: 0 0 20px 20px;
+    padding: 10px;
+    background-color: chocolate;
+    text-align: center;
+    position: inherit;
+    left: 79%;
+    border-left: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+}
+@media (min-width: 992px) {
+    div{
+        box-sizing: border-box;
+        width: 31%;
+        height: auto;
+        float: left;
+        position: relative;
+    }
+    .first{
+        margin-right: 1%;
+        background-color: bisque;
+    }
+    .second{
+        margin-right: 1%;
+        background-color: #f7ff87;
+    }
+    .third{
+        background-color: aquamarine;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .first{
+        margin-right: .5%;
+        margin-bottom: 1%;
+        box-sizing: border-box;
+        position: relative;
+        width: 49.5%;
+        height: auto;
+        float: left;
+        background-color: bisque;
+    }
+    .second{
+        margin-left: .5%;
+        box-sizing: border-box;
+        position: relative;
+        width: 49.5%;
+        height: auto;
+        float: left;
+        background-color: #f7ff87;
+    }
+    .third{
+        position: relative;
+        height: auto;
+        float: left;
+        background-color: aquamarine;
+    }
+}
+@media (max-width: 767px) {
+    .first{
+        margin-bottom: 1%;
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: bisque;
+    }
+    .second{
+        margin-bottom: 1%;
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: #f7ff87;
+    }
+    .third{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: aquamarine;
+    }
+}
+.all{
+    width: 100%;
+    position: relative;
+    clear: left;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+    color: blue;
+    font-size: 3em;
+}
+.first, .second,.third{
+    padding: 0 20px 20px 20px;
+    border: 1px solid blueviolet;
+}
